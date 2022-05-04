@@ -14,6 +14,6 @@ describe("Tests para StudentService", () => {
     test("Lectura de los nombres de todos los estudiantes de visualpartner.json con credits mayor a 500", () => {
         const vpsStudents=Reader.readJsonFile("visualpartners.json")
         const creditsStudents=StudentService.getAccreditedStudents(vpsStudents)
-        expect(creditsStudents.length).toBe(29);
+        expect(creditsStudents.length).toBe(27);
     });
 })
