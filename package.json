@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AngelDavidFR/VPS-API/issues"
   },
-  "homepage": "https://github.com/AngelDavidFR/VPS-API#readme"
+  "homepage": "https://github.com/AngelDavidFR/VPS-API#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
