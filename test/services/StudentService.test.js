@@ -6,4 +6,9 @@ describe("Tests para StudentService", () => {
         const allStudents=StudentService.getAllStudents(vpsStudents)
         expect(allStudents.length).toBe(51);
     });
+    test("Lectura de los emails de todos los estudiantes de visualpartner.json con certificación", () => {
+        const vpsStudents=Reader.readJsonFile("visualpartners.json")
+        const emailStudents=StudentService.getEmailOfCertifiedStudents(vpsStudents)
+        expect(emailStudents.length).toBe(51);
+    });
 })
