@@ -70,3 +70,9 @@ StudentController:+getAccreditedStudents(students)
 | `localhost:3000/v1/students/accredited` | `localhost:3000/v1/students/accredited` | Obtiene los los estudiantes que tengan `credits` mayor a 500.                                 |
 
 ## Resultados
+
+### Endpoint 1
+
+### Endpoint 2
+
+### Endpoint 3
