@@ -4,9 +4,9 @@
 
 Este proyecto fue realizado por Angel David Flores Romero
 
-```
-graph TD
-    id[(Visualpartners)] -->B[Reader]
+```mermaid
+flowchart TD;
+id[(Visualpartners)] -->B[Reader]
     B --> C[StudentService]
     C --> D[StudentController]
     D --> E[Server]
