@@ -72,7 +72,10 @@ StudentController:+getAccreditedStudents(students)
 ## Resultados
 
 ### Endpoint 1
+![req1](https://user-images.githubusercontent.com/99091283/167054741-8cc106a6-ade8-43b7-8ba4-b5b5e9c4915b.jpeg)
 
 ### Endpoint 2
+![req2](https://user-images.githubusercontent.com/99091283/167054763-a63dc86b-aad3-4a84-b794-891b5fb9a81c.jpg)
 
 ### Endpoint 3
+![req3](https://user-images.githubusercontent.com/99091283/167054812-f5abf45e-905d-48ea-84f9-e4144030b7ca.jpg)
