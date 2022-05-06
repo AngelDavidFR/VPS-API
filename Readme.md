@@ -5,7 +5,7 @@
 Este proyecto fue realizado por Angel David Flores Romero
 
 ```
-flowchart TD
+graph TD
     id[(Visualpartners)] -->B[Reader]
     B --> C[StudentService]
     C --> D[StudentController]
