@@ -4,4 +4,10 @@
 
 Este proyecto fue realizado por Angel David Flores Romero
 
-[![img](https://mermaid.ink/img/pako:eNo9j8EOgjAMhl9l6UkTfYEdPAC-gBgvjEPDqi4ZGymdiSG8uwPFnpr_-_6knaCLlkDDg3F4qmtlgsrjbLO7uTGhH5AlEI_7Vh2Pp6K5EFri9qsVS6bKppZkKUhN_HId_WC5wmqDZQzC0ft_uVr5uVlaa5hjOEBP3KOz-aRp8QzIk3oyoPNq6Y7JiwET5qymwaLQ2TqJDPqOfqQDYJJYv0MHWjjRJlUO84f9z5o_Y7xRaA)](https://mermaid.live/edit#pako:eNo9j8EOgjAMhl9l6UkTfYEdPAC-gBgvjEPDqi4ZGymdiSG8uwPFnpr_-_6knaCLlkDDg3F4qmtlgsrjbLO7uTGhH5AlEI_7Vh2Pp6K5EFri9qsVS6bKppZkKUhN_HId_WC5wmqDZQzC0ft_uVr5uVlaa5hjOEBP3KOz-aRp8QzIk3oyoPNq6Y7JiwET5qymwaLQ2TqJDPqOfqQDYJJYv0MHWjjRJlUO84f9z5o_Y7xRaA)
+```
+flowchart TD
+    id[(Visualpartners)] -->B[Reader]
+    B --> C[StudentService]
+    C --> D[StudentController]
+    D --> E[Server]
+```
